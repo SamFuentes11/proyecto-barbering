@@ -1,0 +1,277 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+#whatsapp {
+    display: flex;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    text-decoration: none;
+}
+
+#whatsapp p {
+    margin: 14px;
+    padding: 11px;
+    font-size: 20px !important;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border: 1px solid gray;
+    border-radius: 21px;
+}
+
+#whatsapp img {
+    width: 60px;
+}
+
+#portada1{
+    background: url(../Imagenes/1920_bar.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 20px 30px;
+    color: white;
+}
+
+#portada1 img{
+    width: 120px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+#portada1 header h2 {
+    display: block;
+    float: left;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h2 {
+    font-size: 25px;
+}
+
+#logo{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#menu{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#menu a{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+header h1 {
+    position: relative;
+    width: 90%;
+    margin-top: 300px;
+    font-size: 45px;
+    color:#25304c;
+    /*text-shadow: 1px 1px 5px red;*/
+    display: flex;
+    justify-content: center;
+}
+
+header h1::before {
+    content: '';
+    width: 50%;
+    position: absolute;
+    left: 0px;
+    bottom: -25px;
+    border-bottom: 4px solid white;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+#detalles {
+    background-color: rgb(238, 238, 238);
+    padding: 15px;
+    text-align: center;
+    margin: 0px;
+}
+
+#detalles h2 {
+    font-size: 30px;
+}
+
+#detalles hr {
+    width: 50%;
+    text-align: center;
+    border: none;
+    border-top: 2px solid black;
+}
+
+.cajad {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+    font-size: 25px;
+}
+
+.cajad img {
+    width: 50%;
+    margin: 20px;
+}
+
+#caja_beneficios {
+    width: 94%;
+    margin: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.3), 
+    0px 3px 7px rgba(0, 0, 0, 0.3), 
+    0px 1px white inset, 
+    0px -3px 2px rgba(0, 0, 0, 0.3) inset;
+}
+
+#caja_beneficios h2 {
+    padding-left: 15px;
+}
+
+#beneficios {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+
+#beneficios .cajab {
+    font-size: 19px;
+    margin-inline: 13px;
+}
+
+#beneficios .cajab i {
+    margin-right: 10px;
+    color: #25304c;
+}
+
+#paquetes {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+#portada1 h2 {
+    font-size: 30px;
+    text-align: left;
+}
+
+#precios {
+    text-align: center;
+}
+
+.caja{
+    background-color: #25304c;
+    color: white;
+    width: 100%;
+    height: 270px;
+    border: 1px solid rgba(119, 119, 119, 0.493);
+    border-radius: 5px;
+    margin: 25px 30px;
+    text-align: center;
+    padding: 20px 40px;
+    transition: .5s;
+}
+
+.caja:hover {
+    box-shadow: 1px 1px 5px 5px rgb(117, 117, 117);
+}
+
+.caja h2 {
+    text-align: center;
+}
+
+#paquetes hr {
+    width: 30%;
+    text-align: center;
+    border: none;
+    border-top: 2px solid white;
+}
+
+#paquetes a {
+    background:#c82729;
+    color: white;
+    font-size: 20px;
+    border:none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    text-decoration: none;
+}
+
+#paquetes a:hover {
+    background: #8a191b;
+    cursor: pointer;
+}
+
+hr{
+    border: none;
+    border-bottom: 6px solid #c82729;
+    margin-bottom: 0px;
+}
+
+footer {
+    background-color: #25304c;
+    color: white;
+    display: inline-flex;
+    width: 100%;
+    height: 190px;
+    justify-content: space-evenly;
+}
+
+footer #redes {
+    padding: 20px 50px 0px 50px;
+    line-height: 5px;
+}
+
+footer #facebook img,
+footer #instagram img,
+footer .whatsapp img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+footer #redes a {
+    text-decoration: none;
+    color: white;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+footer #barbering img {
+    width: 200px;
+    padding-top: 7px;
+}
+
+footer #direccion p {
+    color: white;
+    font-size: 20px;
+    padding-top: 25px;
+    line-height: 30px;
+}

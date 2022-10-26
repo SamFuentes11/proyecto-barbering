@@ -1,0 +1,723 @@
+@media (min-width: 1400px) and (max-width: 4000px) {
+    #portada1 #logo {
+        display: none;
+    }
+
+    #portada1 h2 {
+        display: none;
+    }
+    
+    header h1 {
+        display: none;
+    }
+
+    #whatsapp p {
+        font-size: 18px;
+    }
+    
+    #portada1 {
+        height: 895px;
+    }
+
+    #portada1 header h2 {
+        font-size: 38px;
+    }
+
+    #detalles h2 {
+        font-size: 35px;
+    }
+
+    .cajad p {
+        margin: 15px;
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    #caja_beneficios h2 {
+        padding-left: 40px;
+        font-size: 35px;
+    }
+
+    #beneficios .cajab {
+        font-size: 25px;
+    }
+
+    #precios {
+        font-size: 37px;
+    }
+
+    .caja {
+        height: 442px;
+        margin: 25px 71px;
+    }
+
+    .caja h2 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+    #paquetes hr {
+        width: 44%;
+    }
+
+    .caja p {
+        font-size: 26px;
+    }
+
+    #paquetes a {
+        font-size: 27px;
+    }
+
+    footer {
+        height: 191px;
+    }
+
+    footer #redes {
+        line-height: 31px;
+    }
+
+    footer #redes p {
+        font-size: 25px;
+    }
+
+    footer #facebook img, 
+    footer #instagram img, 
+    footer .whatsapp img {
+        width: 24%;
+    }
+
+    footer #barbering img {
+        width: 265px;
+        padding-top: 12px;
+    }
+
+    footer #direccion p {
+        font-size: 25px;
+        padding-top: 9px;
+        line-height: 44px;
+    }
+}
+
+@media (max-width: 1400px) {
+    #whatsapp p {
+        font-size: 22px;
+    }
+    
+    #portada1 {
+        background-position: top;
+        height: 880px;
+    }
+
+    #portada1 #logo {
+        display: none;
+    }
+    
+    #portada1 header h2 {
+        font-size: 40px;
+    }
+
+    #portada1 h2 {
+        display: none;
+    }
+    
+    header h1 {
+        display: none;
+    }
+
+    #caja_beneficios {
+        width: 95%;
+    }
+
+    #caja_beneficios h2 {
+        padding-left: 40px;
+        font-size: 35px;
+    }
+
+    #beneficios .cajab {
+        font-size: 24px;
+    }
+
+    #precios {
+        font-size: 38px;
+    }
+
+    .caja{
+        height: 455px;
+        margin: 25px 49px;
+    }
+
+    .caja h2 {
+        font-size: 35px;
+    }
+
+    .caja p {
+        font-size: 28px;
+    }
+
+    #paquetes hr {
+        width: 39%;
+    }
+
+    #paquetes a {
+        font-size: 27px;
+    }
+
+    footer {
+        height: 200px;
+    }
+
+    footer #redes {
+        padding: 20px 50px;
+        line-height: 34px;
+    }
+
+    footer #facebook img, 
+    footer #instagram img, 
+    footer .whatsapp img {
+        width: 23%;
+    }
+
+    footer #redes p {
+        font-size: 23px;
+    }
+
+    #redes .whatsapp {
+        display: none;
+    }
+
+    footer #barbering img {
+        width: 246px;
+        padding-top: 14px;
+    }
+
+    footer #direccion p {
+        font-size: 23px;
+        padding-top: 22px;
+        line-height: 38px;
+    }
+}
+
+@media (max-width: 1300px) {
+    #portada1 {
+        height: 820px;
+    }
+
+    #portada1 header h2 {
+        font-size: 38px;
+    }
+
+    #detalles h2 {
+        font-size: 35px;
+    }
+
+    .cajad p {
+        margin: 15px;
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    #caja_beneficios {
+        width: 94%;
+    }
+
+    footer #direccion p {
+        padding-top: 23px;
+    }
+}
+
+@media (max-width: 1200px) {
+    #portada1 {
+        background-position: top;
+        height: 745px;
+    }
+    
+    #portada1 img {
+        width: 37%;
+        margin-right: 0px;
+    }
+
+    #portada1 #logo {
+        display: none;
+    }
+
+    #portada1 h2 {
+        display: none;
+    }
+    
+    header h1 {
+        display: none;
+    }
+
+    #portada1 header h2 {
+        font-size: 34px;
+    }
+
+    #caja_beneficios {
+        width: 94%;
+    }
+
+    #precios {
+        font-size: 34px;
+    }
+
+    .caja{
+        height: 395px;
+        margin: 25px 47px;
+    }
+
+    .caja h2 {
+        font-size: 30px;
+    }
+
+    .caja p {
+        font-size: 24px;
+    }
+
+    #paquetes hr {
+        width: 39%;
+    }
+
+    #paquetes a {
+        font-size: 25px;
+    }
+
+    hr {
+        border-bottom: 8px solid #c82729;
+    }
+
+    footer {
+        height: 198px;
+    }
+    
+    footer #redes {
+        line-height: 27px;
+        padding: 27px 50px;
+    }
+
+    footer #facebook img, 
+    footer #instagram img, 
+    footer .whatsapp img {
+        width: 24%;
+    }
+    
+    footer #redes p {
+        font-size: 21px;
+    }
+
+    footer #barbering img {
+        width: 257px;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    #portada1 {
+        background-position: top;
+        height: 630px;
+    }
+
+    header h1 {
+        margin-top: 276px;
+    }
+
+    #portada1 header h2 {
+        font-size: 29px;
+    }
+    
+    #portada1 > h2 {
+        font-size: 30px;
+        text-shadow: 0px 0px 2px black;
+    }
+
+    #detalles h2 {
+        font-size: 30px;
+    }
+
+    .cajad p {
+        margin: 15px;
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    #caja_beneficios {
+        width: 93%;
+    }
+
+    #caja_beneficios h2 {
+        padding-left: 30px;
+        font-size: 30px;
+    }
+
+    #beneficios .cajab {
+        font-size: 20px;
+    }
+    
+    #paquetes hr {
+        width: 46%;
+    }
+
+    .caja {
+        margin-inline: 30px;
+    }
+
+    footer {
+        height: 174px;
+    }
+
+    footer #redes {
+        padding: 18px 50px;
+    }
+
+    footer #redes p {
+        font-size: 20px;
+    }
+
+    footer #barbering img {
+        width: 225px;
+        padding-top: 10px;
+    }
+
+    footer #direccion p {
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 992px) {
+    #portada1 {
+        height: 615px;
+    }
+
+    #portada1 header h2 {
+        font-size: 28px;
+    }
+
+    #portada1 h2 {
+        font-size: 28px;
+    }
+
+    #beneficios .cajab {
+        font-size: 19px;
+    }
+
+    #precios {
+        font-size: 30px;
+    }
+
+    .caja {
+        width: 25%;
+        margin-top: 10px;
+        margin-inline: 25px;
+    }
+
+    footer {
+        height: 174px;
+    }
+
+    footer #redes {
+        padding: 15px 50px;
+    }
+
+    footer #barbering img {
+        padding-top: 11px;
+    }
+
+    footer #direccion p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    #whatsapp p {
+        font-size: 15px;
+    }
+    
+    #portada1 {
+        background-position: -173px;
+        background-size: cover;
+    }
+
+    #portada1 img {
+        width: 56%;
+    }
+
+    #portada1 header h2 {
+        font-size: 24px;
+        text-shadow: 0px 0px 2px black;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    header {
+        display: initial;
+    }
+
+    header h1 {
+        margin-top: 220px;
+        font-size: 45px;
+    }
+
+    header h1::before {
+        border-bottom: 3px solid white;
+    }
+
+    #portada1 h2 {
+        font-size: 24px;
+        text-shadow: 0px 0px 2px black;
+    }
+
+    .cajad p {
+        margin: 10px;
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .cajad img {
+        width: 55%;
+        margin: 10px;
+    }
+
+    #caja_beneficios {
+        width: 91%;
+    }
+
+    #caja_beneficios h2 {
+        padding-left: 20px;
+    }
+
+    #beneficios .cajab {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    #precios {
+        font-size: 35px;
+    }
+
+    #paquetes {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .caja {
+        width: 31%;
+    }
+
+    footer #direccion p {
+        padding-top: 9px;
+        padding-inline: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    #whatsapp {
+        bottom: 20px;
+        right: 20px;
+    }
+    
+    #whatsapp p {
+        display: none;
+    }
+
+    #portada1 {
+        background-position: -104px;
+        height: 432px;
+    }
+
+    #portada1 #logo {
+        width: 44%;
+    }
+
+    #portada1 header h2 {
+        display: none;
+    }
+
+    header h1 {
+        margin-top: 315px;
+        font-size: 40px;
+    }
+
+    #detalles h2 {
+        font-size: 30px;
+    }
+    
+    .cajad {
+        flex-direction: column;
+        justify-content: center;
+        font-size: 18px;
+    }
+
+    .cajad img {
+        width: 80%;
+    }
+
+    #caja_beneficios {
+        width: 88%;
+        box-shadow: none;
+    }
+
+    #caja_beneficios h2 {
+        text-align: center;
+        font-size: 32px;
+        padding-left: 0;
+    }
+    
+    #beneficios {
+        flex-flow: column;
+        align-items: center;
+    }
+
+    #beneficios .cajab {
+        width: 100%;
+        margin: -11px;
+        font-size: 21px;
+    }
+
+    .caja {
+        width: 44%;
+    }
+
+    #paquetes a {
+        font-size: 27px;
+    }
+
+    footer {
+        height: auto;
+        display: flex;
+        flex-flow: wrap;
+    }
+
+    footer #redes p {
+        font-size: 18px;
+    }
+
+    footer #direccion p {
+        text-align: center;
+        padding: 0px;
+    }
+}
+
+@media (max-width: 540px) {
+    #portada1 {
+        background-size: cover;
+        height: 414px;
+        background-position: -107px;
+    }
+
+    #portada1 #logo {
+        width: 60%;
+    }
+
+    header h1 {
+        margin-top: 245px;
+        font-size: 40px;
+    }
+
+    #portada1 h2 {
+        margin-top: 37px;
+    }
+
+    #caja_beneficios {
+        width: 87%;
+        padding-bottom: 16px
+    }
+}
+
+@media (max-width: 411px) {
+    #portada1 {
+        background: url(../Imagenes/barber1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 564px;
+    }
+
+    #portada1 #logo {
+        display: flex;
+        width: 64%;
+    }
+
+    header h1 {
+        display: flex;
+        margin-top: 305px;
+        font-size: 30px;
+    }
+
+    #portada1 h2 {
+        display: flex;
+        font-size: 20px;
+    }
+
+    .cajad img {
+        width: 100%;
+    }
+
+    #caja_beneficios {
+        width: 83%;
+    }
+
+    #precios {
+        font-size: 32px;
+    }
+
+    .caja {
+        width: 53%;
+    }
+
+    footer {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        height: auto;
+    }
+
+    footer #barbering img {
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    #portada1 #logo {
+        width: 70%;
+    }
+
+    header h1 {
+        margin-top: 299px;
+    }
+
+    #caja_beneficios {
+        width: 81%;
+    }
+}
+
+@media (max-width: 360px) {
+    #portada1 #logo {
+        width: 78%;
+    }
+
+    header h1 {
+        margin-top: 290px;
+        font-size: 32px;
+    }
+
+    #precios {
+        font-size: 32px;
+    }
+
+    .caja {
+        width: 53%;
+    }
+ }
+
+@media (max-width: 340px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    .caja {
+        width: 58%;
+    }
+} 
